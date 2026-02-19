@@ -1,0 +1,23 @@
+:root {
+  --bg-color: #fbf1c7;
+  --surface-color: #ecece7;
+  --text-primary: #111111;
+  --text-secondary: #444444;
+  --border-color: #111111;
+  --accent-color: #9d0006;
+
+  --font-serif: "Crimson Text", serif;
+  --font-mono: "Space Mono", monospace;
+}
+
+body.dark-theme {
+  --bg-color: #282828;
+  --surface-color: #32302f; 
+  --text-primary: #ebdbb2; 
+  --text-secondary: #a89984; 
+  --border-color: #504945;
+  --accent-color: #fabd2f; 
+  --accent-orange: #fe8019; 
+  --accent-green: #b8bb26; 
+  --accent-red: #fb4934; 
+}

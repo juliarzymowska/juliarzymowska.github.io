@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+    <title>JRZ | Personal Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <aside class="profile-sidebar h-card">
+        <div class="profile-image">
+          <img class="u-photo" src="assets/profile.jpg" alt="My Profile" />
+        </div>
+        <h1 class="p-name">
+          <a class="u-url" rel="me" href="#">Julia 'Julina' Rzymowska</a>
+        </h1>
+        <p class="p-note">Reinventing the wheel just (slightly) worse...</p>
+        <div class="status-badge">CS student @ AGH University of Krakow</div>
+        <div class="status-badge"><b>email:</b> juliarzymowska9@gmail.com</div>
+
+        <div class="social-links">
+          <a href="https://github.com/juliarzymowska" rel="me" target="_blank"
+            >[ GitHub ]</a
+          >
+          <a
+            href="https://www.linkedin.com/in/julia-rzymowska-aa9378384"
+            rel="me"
+            target="_blank"
+            >[ LinkedIn ]</a
+          >
+          <a href="https://discord.com/users/1julina1" target="_blank"
+            >[ Discord ]</a
+          >
+        </div>
+      </aside>
+      <div class="content-wrapper">
+        <nav class="top-nav">
+          <ul>
+            <li><a href="#about">/about</a></li>
+            <li><a href="#setup">/setup</a></li>
+            <li><a href="#favourites">/favourites</a></li>
+            <li><a href="#projects">/projects</a></li>
+          </ul>
+          <button id="theme-toggle">[ 🌙 Dark ]</button>
+        </nav>
+
+        <main class="bento-grid">
+          <section id="about" class="bento-item span-two">
+            <h2>About me</h2>
+            <ul class="brutalist-list">
+              <li>
+                <strong>Hi, I'm Julia!</strong>
+                I'm Computer Science student from the Faculty of Computer
+                Science at the AGH University of Krakow.
+              </li>
+              <li>
+                <strong>Hobbies:</strong>
+                I enjoy coding, listening to music, reading books, playing
+                computer games, going out for walks.
+              </li>
+              <li>
+                <strong>Future projects/ideas/TODO:</strong>
+                making my own home server, learning more about arduino, learning
+                rust and erlang&elixir, pursuing my knowledge in ML, ...
+              </li>
+              <li>
+                <strong>Languages that I know:</strong>
+                <p style="text-align: center;">
+                    <img
+                      src="https://skillicons.dev/icons?i=bash,c,cpp,css,html,java,latex,md,py&perline=5" alt="Programming Languages I know"
+                    />
+                </p>
+              </li>
+              <li>
+                <strong>Technologies I worked with:</strong>
+                <p style="text-align: center;">
+                    <img
+                      src="https://skillicons.dev/icons?i=cmake,emacs,git,github,gradle,idea,linux,pycharm,vim,vscode&perline=5" alt="Technologies and Tools I use"
+                    />
+                </p>
+              </li>
+            </ul>
+          </section>
+
+          <section id="setup" class="bento-item">
+            <h2>My current setup</h2>
+            <p>
+              Currently I'm using <b>Linux Fedora 42</b> (looking forward to
+              update to CachyOS).
+            </p>
+            <ul class="brutalist-list">
+              <li>Shell: bash</li>
+              <li>DE: KDE Plasma (currently using with Krokhnite as a WM)</li>
+              <li>Host: Dell XPS 15</li>
+              <li>CPU: 13th Gen Intel(R) Core(TM) i7-13700H (20) @ 5.00 GHz</li>
+              <li>
+                GPU: NVIDIA GeForce RTX 4050 Max-Q / Mobile [Discrete] <br />
+                Intel Iris Xe Graphics @ 1.50 GHz [Integrated]
+              </li>
+              <li>RAM: 16GB</li>
+              <li>Terminal: Alacritty</li>
+            </ul>
+          </section>
+
+          <section id="favourites" class="bento-item">
+            <h2>My favourite items</h2>
+            <p>
+              I appreciate tactile, minimalist tools that help me stay focused
+              on my learning journey.
+            </p>
+            <ul class="brutalist-list">
+              <li>Fountain Pen: Lamy Allstar</li>
+              <li>Mechanical pencil: Rotring 600, Uni KuruToga</li>
+              <li>IEM of choice: 7Hz G1</li>
+              <li>Tablet: Samsung Galaxy Tab S8</li>
+            </ul>
+          </section>
+          <section id="projects" class="bento-item span-two">
+            <h2>Projects</h2>
+            <p>Section for my (mostly finished) projects.</p>
+            <ul class="brutalist-list">
+              <li>TODO</li>
+            </ul>
+          </section>
+        </main>
+        <footer class="brutalist-footer">
+          <p>STATUS: ONLINE // HANDCRAFTED WITH RAW HTML & CSS</p>
+          <p>© 2026 juliarzymowska.</p>
+        </footer>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
