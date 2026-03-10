@@ -165,6 +165,10 @@ h2 {
   box-shadow: 0px 0px 0px var(--accent-color);
 }
 
+.social-links a:visited {
+  color: var(--text-primary); 
+}
+
 /* --- 4. RIGHT SIDE: CONTENT & NAV --- */
 .content-wrapper {
   flex: 1;
